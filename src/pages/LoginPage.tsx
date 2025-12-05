@@ -10,7 +10,7 @@ const LoginPage = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Mock login logic - accept anything for now as per requirements
+
     if (username && password) {
       login();
       navigate('/products');
